@@ -22,7 +22,7 @@ body {
     font-size: 28px;
     color: #f9faf8;
     font-weight: 900;
-    margin: 0 0 5px; 0;
+    margin: 0 0 5px 0;
   }
 
   header p {
@@ -58,14 +58,14 @@ body {
     padding: 0;
     margin: 0;
     display: flex;
-    display: block;
+    flex-wrap: wrap;
   }
 
   .canvas .pixel {
-    background-color: black;
+    background-color: darkgray;
     margin: 0;
     padding: 0;
-    min-width: 4px;
-    min-height: 4px;
-    flex: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    aspect-ratio: 1/1;
   } 
